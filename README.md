@@ -60,3 +60,6 @@ EDA involved the exploring of the data to answer some questions about the data s
 
 ### Data Analysis 
 This is where l include my Excel dashboard.
+[Dash Board.pdf](https://github.com/user-attachments/files/21053645/Dash.Board.pdf)
+
+
