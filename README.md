@@ -1,5 +1,6 @@
 # DSA-project-documentation
 This is where l started my portfolio building while taking my data analysis class with incubator 
+
 ## PROJECT TOPIC- AMAZON PRODUCT REVIEW ANALYSIS 
 
 ### PROJECT OVERVIEW 
@@ -7,8 +8,26 @@ This project aims to analyze Amazon product reviews to gain insights into custom
 
 
 ### Data source 
+ The data source for Amazon product reviews analysis could be:
 
-The primary source of data uesd here is data inventory and this is an open source data that can be freely downloaded from open source online such as kaggle or any other repository site.
+1. Amazon Product Reviews Dataset: A publicly available dataset that contains product reviews and ratings from Amazon.
+2. *Amazon Web Scraping*: Collecting data by scraping Amazon product pages using web scraping technical
+   
+### Data Cleaning and Preparation Steps for Amazon Product Reviews Analysis
+
+1. Handle missing values
+- Remove or impute missing ratings or review text.
+2. Text preprocessing
+- Tokenize review text.
+- Remove stop words, punctuation, and special characters.
+- Convert text to lowercase.
+3. Data normalization:
+-  Scale ratings (e.g., 1-5 stars) if necessary.
+4.Remove duplicates
+-  Eliminate duplicate reviews.
+5. Data transformation
+  -  Convert data into suitable format for analysis (e.g., pandas dataframe).
+
 
 ### Tools Used 
 
@@ -16,12 +35,6 @@ The primary source of data uesd here is data inventory and this is an open sourc
 -  Microsoft excel( for cleaning
 -  Power BI( for visual analytic and dashboard
 -  GitHub ( version control and hosting
-
-### Data Cleaning and Preparation 
-In the initial phase of the data cleaning and preparation, l perform the following actions 
-1. Data loading and inspection
-2. Handling mising variables
-3. Data cleaning and formatting
 
 
 ### Exploratory Data Analysis 
